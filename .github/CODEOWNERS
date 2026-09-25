@@ -1,1 +1,21 @@
+# CODEOWNERS - Dépôt Scripts
+# Définit les responsables de la relecture des Pull Requests.
+# Syntaxe : motif_de_fichier @utilisateur1 @utilisateur2
 
+# Règle par défaut : tout le dépôt
+* @ProjetClasse @BlacksheepMaster
+
+# Scripts de déploiement (critique)
+/DEPLOIEMENT/* @ProjetClasse @BlacksheepMaster
+
+# Scripts partagés
+/SHARED/* @ProjetClasse @BlacksheepMaster
+
+# Scripts utilitaires
+/UTILITAIRES/* @ProjetClasse @BlacksheepMaster
+
+# Tests
+/TESTS/* @ProjetClasse @BlacksheepMaster
+
+# Workflows GitHub Actions
+/.github/workflows/* @ProjetClasse @BlacksheepMaster
